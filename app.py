@@ -49,7 +49,7 @@ def loginpage():
         
 @app.route('/stats')
 def stats():
-    url = "httpcd C:\Users\cd cds://q23de35bn5.execute-api.us-east-2.amazonaws.com/plasma/getbloodgroupsdata"
+    url ="http//q23de35bn5.execute-api.us-east-2.amazonaws.com/plasma/getbloodgroupsdata"
     response = requests.get(url)
     r = response.json()
     print(r)
